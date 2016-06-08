@@ -1,0 +1,6 @@
+rootProject.name = 'exception-manager'
+include 'exception-manager-server'
+include 'exception-manager-api'
+include 'exception-manager-client'
+include 'exception-manager-log4j'
+

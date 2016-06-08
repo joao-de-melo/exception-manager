@@ -1,0 +1,21 @@
+group 'co.uk.14tek'
+version '1.0'
+
+subprojects {
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        jcenter()
+        maven {
+            url "http://dl.bintray.com/jtwig/maven"
+        }
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.11'
+}
